@@ -32,7 +32,7 @@ export default class Form extends React.Component {
           Phone Number:
           <br />
           <input
-            name="YearOfManufacture"
+            name="phoneNumber"
             placeHolder="XXXXXXXXXX"
             value={this.state.phoneNumber}
             onChange={e => this.change(e)}
